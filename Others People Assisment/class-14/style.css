@@ -1,0 +1,214 @@
+/*-------------
+   General css
+---------------*/
+
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background: #fff;
+	font-family: 'Bona Nova', serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 17px;
+}
+h1{font-size: 40px;}
+h2{font-size: 30px;}
+h3{font-size: 20px;}
+/*------------------
+	Header Area css
+--------------------*/
+.header-area{
+	background:#f1f2f6;
+	border: outset;
+	padding: 10px 0;
+
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 20%;
+
+	
+
+}
+.menu{
+	width: 60%;
+	margin-top: 27px;
+
+}
+.menu> ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style: none;
+	position: relative;
+}
+.menu ul li a{
+	padding: 5px 20px;
+	display: block;
+	font-weight: 800;
+	transition: .3s;
+	color: #F2A22C;
+}
+.menu ul li a:hover{
+	color: #FF5C5C;
+	transform: translateY(-2px);
+}
+.menu ul ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display:none;
+}
+.menu ul li:hover ul{
+	background: #f1f2f6;
+	display: block;
+	white-space: nowrap;
+}	
+.search{
+	width: 20%;
+	position: relative;
+}
+.search input{
+	width: 100%;
+	
+	padding: 10px 5px;
+	margin-top: 20px;
+	border: outset;
+	
+}
+.search button{
+	position: absolute;
+	top: 40%;
+	right: 5px;
+	background: transparent;
+	border: none;
+}
+.search button i{
+	font-size: 20px;
+	
+}
+/*----------------------
+	Header Area css end
+------------------------*/
+
+
+
+/*------------------
+	Banner css
+--------------------*/
+.banner{
+	background: url(photos/ph9.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-overlay{
+	background: rgba(137, 196, 244, .7);
+	padding: 200px 0;
+
+}
+.banner-content{
+	width: 40%;
+	margin: 5px auto;
+	color: rgba(34, 49, 63, 1);
+}
+.banner-content h1{
+	padding: 20px 0;
+}
+/*------------------
+	Banner css End
+--------------------*/
+/*------------------
+	About us css
+--------------------*/
+.about{
+	padding-top: 80px;
+}
+.about-content{
+	display: flex;
+	justify-content: space-between;
+
+}
+.about-left{
+	width: 45%;
+	border: outset;
+	height: 272px;
+}
+.about-right{
+	width: 40%;
+	border: outset;
+	padding: 10px 30px;
+}
+.about-right h2{
+	color:  #FF5C5C;
+}
+.about-right p{
+	padding: 10px 0;
+}
+.about-right h2 span{
+	color: #F2A22C;
+}
+.about-right a{
+	padding: 10px 20px;
+	margin: 10px 0;
+	color: #fff;
+	background: #F2A22C;
+	display: inline-block;
+	border: outset;
+}
+.about-button{
+	text-align: right;
+}
+/*------------------
+	About us css End
+--------------------*/
+
+/*------------------
+	service css
+--------------------*/
+.service-area{
+margin: 100px 0;
+}
+.service-content{
+
+}
+.service-content h2{
+	
+}
+
+
+
+
+
+
+
+
+
+/*------------------
+	service css End
+--------------------*/

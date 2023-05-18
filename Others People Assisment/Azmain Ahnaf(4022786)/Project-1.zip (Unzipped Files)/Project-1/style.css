@@ -1,0 +1,129 @@
+/* General CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+
+}
+body{
+	background: burlywood;
+}
+img{
+	width: 150px;
+	height: auto;
+	display: block;
+}
+/* Header CSS*/
+header{
+	background: bisque;
+
+}
+.container{
+	width: 85%;
+
+}
+.header-content{
+	display: flex;
+}
+.logo{
+	width: 20%;
+}
+h3{
+	color: darkmagenta;
+}
+.menu{
+	width: 70%;
+
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+	
+}
+.menu ul li {list-style: none;
+	position: relative;
+}
+.menu ul li a{
+	color: midnightblue;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	
+	font-weight: bold;
+}
+.menu ul li a:hover{background: #EF6A0A;}
+.menu ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+}
+.menu ul li:hover ul{background: paleturquoise;
+display: block;
+transform: translateY(-3px);
+text-transform: capitalize;
+transition: .5s;
+}
+
+
+/* Banner CSS*/
+
+
+.banner{
+	background: url('Pics/2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.banner-overlay{
+	background: rgba(0,0,0,.5);
+	padding: 100px 100px;
+}
+.banner-content{
+	text-align: center;
+	color: floralwhite;
+	width: 60%;
+	margin: 0 auto;
+}
+input{
+	background: green;
+}
+button{
+	background: blanchedalmond;
+}
+
+/* KIEA CSS*/
+
+
+.about-kiea{
+	padding: 100px 0;
+}
+.about-content{
+	display: flex;	
+}
+.left{
+	
+}
+.right {
+	width: 50%;
+}
+.right h4 {
+	font-size: 30px;
+	font-weight: bold;
+	color: darkolivegreen;
+}
+.right p{
+	font-size: 25px;
+	color: indianred;
+}
+.web-link a{
+	background: papayawhip;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	color: darkblue;
+}

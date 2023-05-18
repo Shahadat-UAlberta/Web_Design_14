@@ -1,0 +1,132 @@
+/*=-=-=-=-=-=-=-=
+General CSS
+=-=-=-=-=-=-=-=-*/
+
+*{margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+body{background: #fff;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+img{max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*=-=-=-=-=-=-=-=
+Header CSS
+=-=-=-=-=-=-=-=-*/
+.header-area{background: #ecf0f1;
+	padding: 1px 0;
+}
+.container{width: 90%;
+	margin: 20px auto;
+}
+.header-content{display: flex;
+	justify-content: space-between;
+}
+.logo{width: 15%;}
+
+.menu{width: 60%;
+	text-transform: capitalize;
+}
+
+
+.menu > ul{display: flex;
+	
+	justify-content: center;
+}
+.menu ul li{list-style: none;
+	position: relative;
+}
+.menu ul li a{text-decoration: none; 
+	padding: 10px 20px;
+	display: block;
+	font-weight: 800;
+	transition: .3s;
+}
+
+.menu ul li a:hover{color: red;
+	transform: translateY(-2px);
+}
+
+.menu ul ul{position: absolute;
+	top: 100%;
+	left: 0;
+	background: #ecf0f1;
+	display: none;
+}
+.menu ul ul li{white-space: nowrap;}
+.menu ul li:hover ul{display: block;
+
+}
+.search{width: 20%;
+	margin: 10px;
+	position: relative;
+}
+.search input{width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	
+}
+.search button{position: absolute;
+	background: transparent;
+	border: none;
+	right: 20px;
+	top: 10px;
+}
+			/*Header css end*/
+/*banner*/
+.banner{
+	background: url('image/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.banner-overlay{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 220px 0;
+
+}
+.banner-containt{
+	width: 40%;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 600;
+}
+.banner-containt h1{
+	margin-bottom: 20px;
+}/*banner css end*/
+
+/*About css*/
+
+.about-us{
+	padding: 30px 0;
+}
+.about-content{
+	display: flex;
+	justify-content: space-between;
+
+}
+.right{width: 45%;}
+.right h2{
+	margin-bottom: 15px;
+}
+.right p{
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.right a{
+	text-decoration: none;
+	padding: 5px 10px;
+	background: red;
+	color: #fff;
+	margin-top: 10px;
+	display: inline-block;
+}
+.left{width: 45%;}
+/*About css end*/

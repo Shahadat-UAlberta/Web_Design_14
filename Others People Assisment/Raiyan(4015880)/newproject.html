@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	\<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>banner</title>
+
+     <!--Main css-->
+	<link rel="stylesheet" href="newproject.css">
+</head>
+<body>
+	<!-- =-=-=-=-=-=-=-=-=-=
+		   Header Area
+	=-=-=-=-=-=--=-=-=-=-=-=-->
+	<header>
+		<div class="header-area">
+			<div class="container">
+				<div class="header-content">
+					<div class="logo">
+						<img src="data:image/png;base64,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">
+					</div>
+					<nav class="menu">
+						<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">service</a></li>
+						<li><a href="#">team</a></li>
+						<li><a href="#">contact</a></li>
+						</ul>
+						</nav>
+
+						<div class="search">
+							<form>
+								<input type="search" placeholder="search">
+								<button type="search"><i class="fas fa-search"></i></button>
+							</form>
+						</div>
+						
+				</div>
+				
+			</div>
+		</div>
+	</header><!--header end-->
+
+	<div class="banner">
+		<div class="banner-overlay">
+			<div class="banner-content">
+				<h1>hello</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quiui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	<!--banner end-->
+
+	<!-- =-=-=-=-=-=-=-=-=-=
+		   About Area
+	=-=-=-=-=-=--=-=-=-=-=-=-->
+
+	<div class="about-us">
+		<div class="container">
+			<div class="about-content">
+				<div class="left">
+					<img src="https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+				</div>
+				<div class="right"> 
+					<h3><span>about</span> us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					u fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore ulpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

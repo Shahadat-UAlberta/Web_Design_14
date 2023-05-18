@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.row{
+    display: flex;
+}
+
+.col-12{
+    width: 100%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+/*header section styles*/
+   @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  body{
+    background: #fff;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+ /* =-=-=-=-=-=-=-=-=-=-=-=--=--=--=--=--=-
+          Header CSS
+    =-=-=-=-=-=-=-=-=-=-=-=--=--=--=--=--=-
+*/
+    .header-area{
+        background: #ecf0f1;
+    }
+    .container{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .header-content{
+        display: flex;
+    }
+
+    .logo{#2980b9#2980b9
+        width: 15%;
+    }
+    .menu{
+        width: 60%;
+    }
+    .menu > ul{
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li{
+        list-style: none;
+        position: relative;
+
+    }
+    .menu ul li a{
+        color: #636e72;
+        padding: 8px 15px;
+        display: block;
+    }
+    .menu ul li a:hover{
+        color: #2980b9;
+        transform: translateY(-2px);
+    }
+    .menu ul ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #dcdde1;
+        display: none;
+
+
+    }
+    .menu ul li:hover ul{
+        display: block;
+    }
+    .menu ul ul li{
+        white-space: nowrap;
+    }
+    .search{
+        width: 20%;
+        position: relative;
+    } 
+    .search input{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box ;
+    }
+    .search button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: none;
+        
+    }
+
+
+.banner-section{
+    background: linear-gradient(rgba(68, 68, 68, 0.50),rgba(68, 68, 68, 0.50)), url(4.jpeg);
+    height: 550px;
+    background-size: 100% 100%;
+}
+.banner-text{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.banner-text a {
+    color: #fff;
+    background: #0069c3;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner-text h3{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.banner-text p{
+    width: 60%;
+    margin: 0 auto
+}
+
+
+/*item section styles*/
+.item-section{
+    padding: 50px 0;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-header p{
+    width: 60%;
+    margin: 0 auto;
+}
+.item-box{
+    display: flex;
+}
+.item-text{
+    margin-left: 10px;
+}
+.item-text h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item-text p{
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.item-icon i {
+    font-size: 35px;
+    color: #01dada;
+}
+
+
